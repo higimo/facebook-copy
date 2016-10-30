@@ -1,0 +1,264 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html, body
+{
+    min-height: 100%;
+    font-family: Dotum;
+}
+.form
+{
+    padding: auto;
+    width: 389px;
+    min-height: 450px;
+}
+.form_list
+{
+    padding: auto;
+    width: 789px;
+    min-height: 450px;
+}
+.form_upload
+{
+    padding-left: 20px;
+    width: 389px;
+}
+.name_and_date
+{
+    height: 35px;
+}
+.name_data
+{
+    width: 113px;
+    height: 35px;
+    float: left;
+    text-align: right;
+    color: #1d2a5b;
+}
+.data_name
+{
+    
+}
+.name_info_data
+{
+    width: 113px;
+    height: 35px;
+    float: left;
+    text-align: right;
+    color: #1d2a5b;
+    vertical-align: middle;
+}
+.data
+{
+    width: 270px;
+    height: 35px;
+    float: right;
+    vertical-align:middle
+}
+div
+{
+    color: #1d2a5b;
+    font-size: 12px;
+}
+div.title1
+{
+    margin: 10px;
+    padding: 5px;
+    color: #0e385f;
+    font-size: 16px;
+    font-family: Verdana;
+}
+span.title2
+{
+    font-size: 14px;
+    font-family: Dotum;
+}
+span.question
+{
+    color: #3b5998;
+    font-size: 11px;
+}
+span.response
+{
+    color: #f32c11;
+}
+input
+{
+    padding: 6px;
+    width: 245px;
+    border: 1px solid #96a6c5;
+}
+select
+{
+    font-family: Dotum;
+    padding: 6px;
+    border: 1px solid #96a6c5;
+}
+.save
+{
+    width: 120px;
+    height: 35px;
+    background: #6ba850;
+    color: #ffffff;
+    border: 1px solid #2c5115;
+    font-weight: bolder;
+}
+div.menu
+{
+    border-top: 2px double #1d4088;
+    width: 100%;
+    height: 43px;
+    background: #627aad;
+}
+.block
+{
+    width: 100%;
+    font-size: 14px;
+    color: ffffff;
+    background: #627aad;
+    border-top: 1px double #1d4088;   
+}
+.block_a
+{
+    padding-left: 13px;
+    padding-right: 13px;
+    height: 38px;
+    display: block;  
+}
+#box_menu
+{
+    position: relative;
+    display: none;
+    width: 150px;
+}
+.block_data
+{
+    width: 180px;
+    height: 35px;
+    float: left;
+    text-align: center;
+    color: #1d2a5b;
+}
+.line
+{
+    width: 100%;
+    height: 70px;
+    background: #3b5998;
+}
+div.body
+{
+    margin: auto;
+    padding: auto;
+    width: 80%;
+    min-height: 533px;
+    position:relative;
+    top: -45px;         
+}
+.fon
+{
+    min-height: 510px;
+    border-right: 2px double #d5d5d5;
+    border-bottom: 2px double #d5d5d5;
+    border-left: 2px double #d5d5d5;
+    background: #ffffff; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #ffffff, #dde2ee); /* Firefox 3.6+ *//* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dde2ee));/* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #ffffff, #dde2ee);
+    background: -o-linear-gradient(top, #ffffff, #dde2ee); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff, #dde2ee); /* IE10 */
+    background: linear-gradient(top, #ffffff, #dde2ee); /* CSS3 */  
+}
+.a
+{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #0b1496;
+}
+a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+ul
+{
+    list-style-type: none; 
+}
+li:hover
+{
+    background: #6d86b7;
+}
+hr
+{
+    margin: 10px;
+    color: #9aafca;
+    width: auto;
+}
+.up_dn
+{
+    padding: 20px;
+    height: 20px;
+}
+.block_control
+{
+    width: 86px;
+    float: left;
+    font-size: 14px;
+    color: #ffffff;
+    background: #6ba850;
+    text-align: center;
+    border: 1px solid #2c5115;
+}
+.block_control_right
+{
+    width: 86px;
+    float: right;
+    font-size: 14px;
+    color: #ffffff;
+    background: #6ba850;
+    text-align: center;
+    border: 1px solid #2c5115;
+}
+.block_control_a
+{
+    width: 86px;
+    height: 40px;
+    display: block;
+}
+.block_control_a_center
+{
+    position: relative;
+    top: 13px;
+}
+#menu_list
+{
+    font-size: 15px;
+    color: #ffffff;
+    height: 43px;
+    width: 150px;
+    text-align: center; 
+}
+#over_out_menu
+{
+    width: 150px;
+}
+#exit
+{
+    display: block;
+}
+.label
+{
+    width: 105px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+.conteiner
+{
+    height: 35px;
+}
+#level_pass
+{
+    color: red;
+}

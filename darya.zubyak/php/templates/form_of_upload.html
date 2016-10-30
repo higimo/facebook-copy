@@ -1,0 +1,19 @@
+<div class="one">
+  <span class="name">
+    <b>Upload files</b>
+  </span> 
+  <br> 
+  <br>
+  <div class="border">
+    <form enctype="multipart/form-data" action="/php/save_file.php" method="post">
+      <div class="three_big">
+        <span> Choose a file to upload </span> <br> 
+        <input type="file" name="my_file"> 
+        <br> 
+        <span class="message"> {$message} </span> 
+        <br>
+        <input class="up" type="submit" value="Upload">
+      </div>
+    </form>
+  </div>
+</div>

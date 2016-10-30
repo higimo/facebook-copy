@@ -1,0 +1,309 @@
+/*Автор стиля: Дмитрий Уткин*/
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+
+#body, #body3
+{
+  width: 798px;
+  border: 1px solid #b3b3b3;
+  border-top: none;
+  color: #0e385f;
+  font: normal 15px sans-serif;
+  height: 520px;
+  margin: auto;
+  background-image: repeat-x linear-gradient(bottom, #dee3ee 0%, #ffffff 100%);
+  background-image: -o-linear-gradient(bottom, #dee3ee 0%, #ffffff 100%);
+  background-image: -moz-linear-gradient(bottom, #dee3ee 0%, #ffffff 100%);
+  background-image: -webkit-linear-gradient(bottom, #dee3ee 0%, #ffffff 100%);
+  background-image: -ms-linear-gradient(bottom, #dee3ee 0%, #ffffff 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, dee3ee), color-stop(1, #ffffff));
+}
+
+#body2, #registerForm
+{
+  padding: 50px 390px 0px 0px;
+  height: 468px;
+  border: 1px solid white;
+}
+
+#body3
+{
+  height: 433px;
+  padding: 50px 30px 0px 0px;
+  border: none;
+  width: 400px;
+}
+  
+.header
+{
+  width: 100%;
+  height: 34px;
+  padding-top: 11px;
+  background: #3b5998;
+}
+
+.menu 
+{
+  border-top: 1px solid #1d4088;
+  height: 34px;
+  width: 800px;
+  margin:auto;
+  list-style-type: none;
+  background: #627aad;
+}
+
+.menu li
+{
+  float: left;
+/*  margin-left: 10px; */
+  height: 25px;
+  padding: 8px 10px 0px 10px;
+  margin-left: 6px;
+  color: white;
+  font: bold 14px sans-serif;
+  text-decoration: none;
+}
+
+.menu li a
+{
+  display: block;
+  width: 100%;
+  height: 25px;
+  margin: -10px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
+  color: white;
+  font: bold 14px sans-serif;
+  text-decoration: none;
+}
+
+.menu li:hover
+{
+  background: #6d86b7;
+}
+
+.menu li ul#drop li
+{
+  background: #6d86b7;
+  clear: both;
+  width: 120px;
+  margin-left: -10px;
+}
+
+.menu li ul#drop 
+{
+  margin-top: -33px;
+  list-style-type: none;
+  padding: 33px 0px 0px 0px;
+  height: 40px;
+  width: 120px;
+}
+
+h1
+{
+  margin-left: 15px;
+  margin-bottom: 5px;
+  font: bold 18px sans-serif;
+}
+
+h2
+{
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font: normal 14px sans-serif;
+}
+
+hr
+{
+  border-bottom: 1px solid #9aafca;
+  width: 98%;
+  margin: auto;
+  margin-bottom: 14px;
+  }
+  
+select, input
+  {
+  margin-top: -6px;
+  margin-bottom: 6px;
+  margin-left: 5px;
+  background: #fff;
+  float: right;
+  border: 1px solid #9aafca;
+  }
+
+.fieldselect, .fildselect, .filed
+{
+  vertical-align: text-bottom;
+  width: 100%;
+  text-align: right;
+  float: right;
+  margin-bottom: 5px;
+}
+
+select
+{
+  padding: 5px;
+}
+
+.filed input
+{
+  width: 260px;
+  height: 30px;
+}
+
+.fieldselect select
+{
+  margin-right: 157px;
+  width: 105px;
+}
+
+.fildselect
+{
+  margin-right: 19px;
+}
+
+.fildselect select
+{
+  width: 78px;
+}
+
+button
+{
+  width: 110px;
+  height: 30px;
+  border: 1px solid #3b6e22;
+  background: #69a64d;
+  color: #fff;
+  font: bold 14px sans-serif;
+  margin-top: 10px;
+}
+
+.upfield
+{
+  text-align: left;
+  margin-left: 20px;
+  font: normal 12px sans-serif;
+}
+
+h4
+{
+  margin: 15px 0px 0px 0px;
+  font: normal 16px sans-serif;
+  border-bottom: 1px solid black;
+}
+
+.dirselect 
+{
+  margin-left: 20px;
+  margin-top: -50px;
+}
+
+.userlook
+{
+  margin-left: 20px;
+  margin-top: 100px;
+}
+  
+.userinfo
+{
+  padding-right: 20px;
+}
+
+.dirselect a
+{
+  color: #1485ef;
+  font: normal 12px sans-serif;
+  padding-bottom: 10px;
+}
+
+.inf
+{
+  float: right;
+  margin-right: 61px;
+  width: 200px;
+  font-size: 9pt;}
+
+.warning
+{
+  margin-top: 20px;
+  width: 300px;
+  margin-top: 5px;
+  font: bold 12px sans-serif;
+  color: black;
+}
+  
+.filter
+{
+  padding-top: 30px;
+}
+
+input.notwrite
+{
+  border: 2px solid red;
+  width: 258px;
+  height: 28px;
+}
+
+.nomenu
+{
+  display: none;
+}
+
+.userlist
+{
+  margin: -30px 10px 0px 30px;
+}
+
+#userTab
+{
+  margin: 20px;
+  border: 1px dotted #CCC;
+  padding: 10px;
+}
+
+.paging
+{
+  margin: 20px;
+  border: 1px dotted #CCC;
+  width: 20%;
+  padding: 5px;
+}
+
+.unsee
+{
+  background: #6AA74F;
+  color: white;
+  width: 50px;
+  height: 22px;
+  display: block;
+  padding: 5px 55px;
+  margin: 30px;
+  border: 1px solid green;
+}
+
+#checkPass
+{
+  float: left;
+  margin: 0 0 5px 144px;
+  font: normal 8pt sans-serif;
+}
+
+.redtext
+{
+  color: red;
+}
+
+.yellowtext
+{
+  color: #c9c711;
+}
+
+.greentext
+{
+  color: green;
+}

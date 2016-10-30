@@ -1,0 +1,10 @@
+<div class="one">
+  <span class="name"><b> Images </b></span> <br> <br>
+  <div class="border">
+    <div class="slide">
+        {foreach from=$images key=i item=way}
+        <img id = "{$i}" class="tag" src="{$way}" alt="изображение загружается"> 
+        {/foreach}
+    </div>
+  </div>
+</div>

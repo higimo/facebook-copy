@@ -1,0 +1,330 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+form
+{                           
+    width: 60%;
+    height: 400px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+div.line
+{
+    width: 100%;
+    height: 85px;
+    background: #3B5998;    
+    display: inline-block;
+}
+
+div.small-line
+{
+    width: 70%;
+    height: 35px;
+    background: #627AAD;
+    margin-left: 15%;
+    display: inline-block;
+    margin-top: 49px;
+    border-top:1px solid #1D4088; 
+    padding-left: 5px;
+}
+    
+div.sign-up
+{
+    font-size: 19px;
+    color: #0E385F;
+    font-family: Verdana; 
+    width: 300px;
+}
+
+div.free
+{
+    font-size: 16px;
+    color: #0E385F;
+    face: Verdana; 
+    width: 300px;
+    margin-top: 3px;
+}
+
+div.titlle
+{
+    margin-top: 3px;
+    width: 360px;
+    text-align: right;
+}
+
+div.input
+{
+    margin-top: 5px;
+    width: 360px;
+    text-align: right;
+}
+
+div.recover-info
+{
+    margin-top: 10px;
+    width: 340px;
+    text-align: right;
+    margin-left: 2px;
+}
+
+div.i
+{
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 83px;
+    width: 200px;
+}
+
+div.birthday
+{
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 56px;
+    width: 340px;
+}
+
+div.provide
+{
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 129px;
+}                 
+
+div.sign-up2
+{
+    text-align: left;
+    margin-top: 7px;
+    margin-left: 128px;
+}
+
+hr.line
+{
+    margin-top: 10px;
+    text-align: left;
+    width: 340px;
+    color: #9AAFCA;
+    margin-bottom: 10px;
+
+}
+
+span
+{
+    font-size: 15px;
+    color: #0E385F;
+    font-family: Verdana;
+}
+
+input.my-button
+{
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #6AA74F;
+    height: 30px;
+    width: 100px;
+    border: 1px solid green;
+}
+
+input.input-roll
+{
+    height: 30px;
+    width: 230px;
+    border: 1px solid #96A6C5;
+    background: #FFFFFF;
+    vertical-align: middle;    
+    display: inline;
+    margin-top: 5px;
+}
+
+select.sex
+{
+    padding: 3px;
+    height: 29px;
+    width: 98px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #96A6C5;
+    background: #FFFFFF;
+    margin-top: 5px;
+}
+
+select.day
+{
+    padding: 3px;
+    height: 29px;
+    width: 60px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #96A6C5;
+    background: #FFFFFF;
+    margin-top: 5px;
+}
+
+select.month
+{
+    padding: 3px;
+    height: 29px;
+    width: 73px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #96A6C5;
+    background: #FFFFFF;
+    margin-top: 5px;
+}
+
+select.year
+{
+    padding: 3px;
+    height: 29px;
+    width: 65px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #96A6C5;
+    background: #FFFFFF;
+    margin-top: 5px;
+}
+
+div.form
+{                           
+    width: 70.3%;
+    height: 430px;
+    background-image: url(/images/background.gif); 
+    border-bottom:1px solid #B3B3B3;  
+    border-right:1px solid #B3B3B3;
+    border-left:1px solid #B3B3B3;
+    margin-left: 15%;                              
+}
+
+li
+{	
+    list-style-type: none;
+    height: 34px;
+    width: 83px; 
+    background: #627AAD;
+}    
+                     
+ul.case
+{
+    position: absolute;
+    display: none;
+    background: #627AAD;
+    margin-top: -2px;
+}
+
+ul
+{
+    width: 84px;
+    display: inline-table;
+}
+
+a.menu
+{                
+    text-decoration: none;   
+    color:#FFFFFF;
+    height: 30px;
+    display: block;
+    text-align: center;
+    padding-top: 6px;   
+    font-size: 15px;
+    font-family: Times New Roman;
+}
+
+li:hover 
+{   
+    background-color:#6D86B7;
+    color:#FFFFFF; 
+    height: 34px;
+}
+
+a.list
+{                
+    text-decoration: none;   
+    color:#0E385F;        
+    font-size: 17px;    
+}
+a.provide
+{
+    font-size: 12px;
+    text-decoration: none;   
+}   
+
+div.suc
+{
+    font-size: 19px;
+    color: #0E385F;
+    font-family: Verdana; 
+}
+
+div.error
+{
+    font-size: 19px;
+    color: #0E385F;
+    font-family: Verdana; 
+    margin-top: 20px; 
+    margin-left: 10px;   
+}
+
+table
+{
+    margin-left: 10px;
+    width: 500px;
+    border: 1px;
+    border-color: gray;
+    cols: 3;
+    cellspacing: 0;
+}
+
+td
+{
+    width: 50px;
+    color: #3B5998;
+}
+
+caption 
+{
+    margin-top: 10px;
+    color: #3B5998;
+    font-size: large;	
+    font-weight: bold;
+}
+
+div.images
+{
+    width: 310px;
+    height: 300px;
+}
+
+img.img
+{
+    width: 100px;
+    height: 100px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+div.checkPass
+{
+	position: absolute;
+	display: inline;
+}
+
+input.one
+{
+    color: #FFFFFF;
+    background-color:#6D86B7;
+}
+
+span.mail
+{
+    float: right;
+    font-size: Verdana;
+    color: white;
+    margin-top: 7px;
+    margin-right: 3px;
+}

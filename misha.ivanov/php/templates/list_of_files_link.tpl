@@ -1,0 +1,1 @@
+<a class="a" href="/uploaded/{%FILE%}">{%FILE%}</a><br><br>

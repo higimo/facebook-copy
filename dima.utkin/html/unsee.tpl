@@ -1,0 +1,1 @@
+<a class="unsee" href="?unsee=true">Log out</a>

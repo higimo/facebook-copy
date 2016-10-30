@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title> {$title} </title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <script type="text/javascript" src="/js/jQuery.js"> </script>
+  <script type="text/javascript" src="/js/survey.js"> </script>
+</head>
+<body>
+  <div class="header">
+    <div class="menu" id="block_menu">
+      <ul>
+        <li class="menu_element">
+          <div class="punkt" id="punkt">
+            <button type="button" class="menu_button">  <b>  Enter  </b>  </button> 
+            <div class="list_punkts" id="button">  <div class="kont">
+              <a  href="/php/login.php"> 
+                <button type="button" class="pod_button"> <b>  Login  </b> </button> 
+              </a>
+              <a class="podpunkt"  href="/php/sign_in.php"> 
+                <button type="button" class="pod_button"> <b>  Sign Up  </b> </button> 
+              </a>
+            </div> </div>
+          </div>
+        </li>
+        {foreach from = $topMenu key=link item=name}
+          <li class="menu_element">
+          <a href={$link}> 
+            <button id={$name} type="button" class="menu_button">  <b> {$name} </b> </button> 
+          </a> 
+          </li>
+        {/foreach}
+        <li class="menu_element">
+          <a class="user_name"> {$user} </a>  
+          <input id="userName" type="hidden" name="favorites" value="{$user}">
+        </li>
+      </ul>
+    </div>  
+  </div>
+  {$content}
+</body>
+</html>

@@ -1,0 +1,1 @@
+<a href="?page={%next%}">{%next%}</a>

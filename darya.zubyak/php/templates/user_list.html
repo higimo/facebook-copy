@@ -1,0 +1,14 @@
+<div class="one">
+  <span class="name"><b>User List</b></span> <br> <br>
+  <div class="border">
+    <div class="three_big">
+      <ol start="{$start}">      
+        {foreach from=$users item=user}
+          <li> <a  href="/php/get_user_info.php?user_id={$user.user_id}"> {$user.first_name}  {$user.last_name} </li>
+      {/foreach}
+      </ol>
+    </div>
+      <a class = "switch" href="/php/set_of_users.php?numb={$last}"> Last </a>
+      <a class = "switch" href="/php/set_of_users.php?numb={$next}"> Next </a>
+  </div>
+</div>
