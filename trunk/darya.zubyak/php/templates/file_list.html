@@ -1,0 +1,25 @@
+<div class="one">
+  <span class="name">
+    <b>File List</b>
+  </span> 
+  <br> 
+  <br>
+  <div class="border">
+    <div class="three_big">
+      <ol start="{$start}">      
+        {foreach from=$files item=file}
+        <li>
+          <a href="/uploaded/{$file.file_name}">{$file.file_name}
+          <p class="vote">
+            <a class="vote_button" onClick="vote(this, {$file.numberId});" > - </a>
+            <a class="vote" id={$file.numberId}> {$file.vote} </a>
+            <a class="vote_button" onClick="vote(this, {$file.numberId});"> + </a>
+          </p>
+        </li>
+      {/foreach}
+      </ol>
+    </div>
+      <a class = "switch" href="/php/file_list.php?numb={$last}&ext={$extension}"> Last </a>
+      <a class = "switch" href="/php/file_list.php?numb={$next}&ext={$extension}"> Next </a>
+  </div>
+</div>
